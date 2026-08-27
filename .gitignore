@@ -1,1 +1,36 @@
-ff
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# STM32 / Eclipse
+Debug/
+Release/
+.settings/
+.metadata/
+
+# Vivado
+*.jou
+*.log
+*.str
+*.dmp
+.Xil/
+*.cache/
+*.runs/
+*.sim/
+*.hw/
+*.ip_user_files/
+
+# VS Code
+.vscode/
+
+# Environment / Secrets
+.env
+*.key
